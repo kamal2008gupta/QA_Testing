@@ -1,6 +1,6 @@
 package dec30;
 
-public class input_taking {
+public class inputraking_usingargs {
     public static void main(String[] args) {
         int age=Integer.parseInt( args[0]);
         System.out.println(args[0]);
