@@ -13,5 +13,7 @@ public class input_name_age_sal {
         System.out.printf("person name is %s", name);
         System.out.println("person age is" +age);
         System.out.println("person salary is"+ sal);
+        Scanner.close();
     }
+
 }
