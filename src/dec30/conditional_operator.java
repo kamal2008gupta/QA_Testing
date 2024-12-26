@@ -14,11 +14,17 @@ public class conditional_operator {
 
         // check grade of the student
 
-        int score=40;
+        /*int score=40;
         String grade = (score >= 90) ? "A" :(score >= 80) ? "B" : (score>= 70) ? "C" : (score >= 60) ? "D" : (score >= 50) ? "E" :"F";
         System.out.printf("your grade is %s", grade);
         System.out.println("your grade is " +grade);
+*/
 
+        // check max number out of given 3 no
+
+          int a=3 , b=20, c=5;
+          String max= (a>b && a>c) ? "a" : (b>c? "b" : "c");
+          System.out.printf("max number is " +max);
 
 
     }
