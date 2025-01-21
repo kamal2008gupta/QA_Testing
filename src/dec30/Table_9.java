@@ -5,6 +5,7 @@ public class Table_9 {
         int number = 9;
 
         {
+
             System.out.printf("Multiplication Table for %d:%n", number);
             System.out.printf("%d x %2d = %2d%n", number, 1, number * 1);
             System.out.printf("%d x %2d = %2d%n", number, 2, number * 2);
